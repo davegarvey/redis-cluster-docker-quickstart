@@ -11,14 +11,18 @@ Prerequisite: Docker and Docker Compose installed. Redis Docker images for Redis
 1. Create the containers, volumes and network using Docker Compose
 
         docker-compose up
+   
+   This will start outputting the logs into the terminal window
 
-2. Update scripts to be executable
+2. In a new terminal window, update the scripts to be executable
 
         chmod +x *.sh
         
-3. Run the create cluster script and enter 'yes' when prompted
+3. Run the create cluster script
 
         ./create-cluster.sh
+   
+   You will need to enter 'yes' when prompted
 
 You now have a Redis Cluster running!
 
