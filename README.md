@@ -22,7 +22,7 @@ Prerequisite: Docker and Docker Compose installed. Redis Docker images for Redis
 
         ./create-cluster.sh
    
-   You will need to enter 'yes' when prompted
+   You will need to enter 'yes' when prompted to accept the cluster configuration
 
 You now have a Redis Cluster running!
 
