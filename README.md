@@ -24,9 +24,11 @@ You now have a Redis Cluster running!
 
 ## Get stopped
 
-The containers will store their node config file locally, so if you want from scratch, you should tell docker compose to remove volumes when taking down the containers.
+The containers will store their node config file locally, so if you want to start from scratch, you should tell docker compose to remove volumes when taking down the containers.
 
     docker-compose down -v
+    
+If you don't do this then new containers will pick up the old configuration files which will cause problems with the cluster.
 
 ## Files
 
