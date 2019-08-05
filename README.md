@@ -4,7 +4,7 @@ Creates 6 containers with associated volumes and attaches them to a single netwo
 
 Scripts provide simple way to get info about the Redis Cluster nodes.
 
-Prerequiste: Docker and Docker Compose installed. Redis Docker images for Redis v5+.
+Prerequisite: Docker and Docker Compose installed. Redis Docker images for Redis v5+.
 
 ## Get started
 
